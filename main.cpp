@@ -50,11 +50,7 @@ class BodyScene: public NBodyScene {
     double d_t;
 public:
     BodyScene(): d_t(0.1) {}
-    /*
-    BodyScene() {
-        d_t = 0.1;
-    }
-    */
+  
     BodyScene(double d_t): d_t(d_t) {}
 
     void setBodies(const std::vector<Body>& otherBodies) {
