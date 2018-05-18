@@ -70,7 +70,7 @@ public:
     }
 
     void doTimeStep() override {
-        // считаем для каждого тела ускорение как сумму ускорений по x и y
+ 
         std::vector<double> a_xVec;
         std::vector<double> a_yVec;
         for (Body& body: bodies) {
